@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+}
+
+/* Header style start form here */
+header{
+
+    height: 960px;
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.header_content{
+    text-align: center;
+    padding: 280px 0 0 0;
+    margin: 0px 212px;
+}
+.header_content h1{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 65px;
+    color: #fff;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end; 
+    margin-bottom: 30px;
+}
+.header_content p{
+    font-family: 'Work Sans';
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    text-align: right;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.header_btn{
+text-align: end;
+}
+
+.btn_primary{
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    color: #005FAC;
+    padding: 20px 26px;
+    border-radius: 5px;
+    border: none;
+}
+/* Header style Stop here */
+
+/* Main section style start form here */
+
+main{
+    margin: auto;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 0;
+}
+.main_content_img{
+    margin-left: 150px;
+}
+.main_content_text{
+    width: 700px;
+}
+
+.main_content_text h1{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    color: #151414;
+    margin-bottom: 30px;
+}
+.main_content_text p{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 30px;
+
+}
+
+li{
+    list-style-image: url(../images/check_icon.png);
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #444343;
+
+}
+/* main section style Stop here */
+
+
+/* My Plan section style start form here */
+
+.my_plan_section{
+    display: flex;
+    justify-content: space-between;
+}
+.my_plan_section {
+    align-items: center;
+    padding: 50px 250px;
+    margin-bottom: 50px;
+}
+.title_h1{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+    text-align: center;
+}
+
+.my_plan_section h3{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+.my_plan_section p{
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+.plan_1,.plan_2,.plan_3,.plan_4{
+    text-align: center;
+}
+.plan h3{
+    padding: 16px 0px ;
+}
+
+/* My plan section style Stop here */
+
+/* Bottom_Banner section style start from here*/
+
+.bottom_banner{
+    width: 1140px;
+    height: 300px;
+    background-image: url(../images/gradient1.png),url(../images/watch.png);
+    background-blend-mode: unset;
+    margin: auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.bottom_banner h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding: 59px 617px 0px 64px;
+}
+
+.bottom_banner button{
+    margin-left: 64px;
+    margin-top: 20px;
+}
+
+/* Bottom_Banner section style stop here*/
+
+/* Footer Section style start form here */
+
+
+.feature{
+    background: #151414;
+    display: flex;
+    align-items: center;
+}
+.feature h1{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #F8F8F8;
+margin-bottom: 30px;
+}
+
+
+.feature p{
+    
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+.footer_text{
+    margin-bottom: 20px;
+}
+.footer_email{
+    margin-bottom: 20px;
+}
+
+.social_icon{
+    display: flex;
+}
+.social_icon .fb,.twitter,.youtube{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.feature_ls{
+    width: 500px;
+    padding: 100px 300px;
+}
+
+.feature_rs{
+
+}
+.feature_rs h3{
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 30px;
+
+color: #FFFFFF;
+}
+
+input[type=email]{
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    width: 320px;
+    height: 50px;
+    background: #151414;
+    padding: 0px 10px;
+} 
+
+input[type=submit]{
+    padding: 12px 30px;
+    background-color: #005FAC;
+    border-radius: 8px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+
+/* Footer section style Stop here */
