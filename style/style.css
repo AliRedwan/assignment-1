@@ -100,6 +100,50 @@ li{
 /* main section style Stop here */
 
 
+/* Learned section code start from here */
+
+.learn_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 250px;
+    margin-bottom: 50px;
+}
+.learn_h1{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+    text-align: center;
+}
+
+.learn_section h3{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+.learn_section p{
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+.learn_html,.learn_css,.learn_git{
+    text-align: center;
+}
+.learn h3{
+    padding: 16px 0px ;
+}
+
+/* Learned section code Stop here */
+
+
 /* My Plan section style start form here */
 
 .my_plan_section{
